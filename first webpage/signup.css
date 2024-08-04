@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    width:100%; height:15vh;
+    background-color:green ;
+    color:white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+nav .logo{
+    width:25%; text-align: center;
+}
+.logo-txt{
+    cursor: pointer;
+    font-size:35px;
+    font-weight: 900;
+    box-shadow: 2px 0px 2px 4px;
+}
+.logo-txt:hover{
+    background-color: rgb(64, 179, 64);
+}
+nav .menu{
+    width:40%;
+    display:flex; justify-content: space-around;
+}
+nav .menu a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    font-size: 25px;
+}
+    .menu a:hover{
+    background-color: rgb(68, 206, 68);
+    box-shadow: 2px 0px 2px 4px;
+    }
+nav .menu a:first-child{ 
+    color
+    /* <!--only for the frist anchor tag in menu--haven't used here but might be used it later> */
+}
+.main{
+    height:100vh;
+    display:flex;
+    background-color: azure;
+    align-items: center;
+    background-image: url(images/Nepal-flag.jpg);
+     }
+     .left{
+         width:50%;
+         height: 300px;
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         cursor:pointer;
+     }
+     .left h1{
+        font-weight: bolder;
+        font-size: 49px;
+        Color:Green;
+        background:rgb(187, 187, 27);
+        box-shadow:2px 1px 3px 4px white;
+     }
+     .left h1:hover{
+        background:yellow;
+        color:Blue;
+     }
+     .right{
+         width: 50%;
+         height: 300px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+.form-div{
+    cursor:pointer;
+    width:70%;
+    padding:25px;
+    background-color:whitesmoke;
+    border-radius:10px;
+    box-shadow: 2px 3px 2px 4px;
+}
+.input{
+    cursor:Pointer;
+    width: 88%;
+    padding:20px;
+    margin:5px;
+    border-radius: 11px;
+}
+.button{
+    cursor:pointer;
+    width:95%;
+    padding:20px;
+    margin: 10px;
+  background-color:orangered;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.left h1:after{
+    content:'';
+    animation: changetext 6s infinite linear;
+    color:rgb(47, 255, 92);
+}
+
+@keyframes changetext{
+    0%{content:"Nepal";}
+    25%{content:"Country of lord Buddha";}
+    50%{content:"Small but God gifted country";}
+    75%{content:"hmro desh-hmro Nepal";}
+    100%{content:"Nepal country of mountain"}
+}

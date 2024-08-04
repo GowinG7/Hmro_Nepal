@@ -1,0 +1,78 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+nav{
+    width:100%; height:15vh;
+    background-color:green ;
+    color:white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+nav .logo{
+    width:25%; text-align: center;
+}
+.logo-txt{
+    cursor: pointer;
+    font-size:35px;
+    font-weight: 900;
+    box-shadow: 2px 0px 2px 4px;
+}
+.logo-txt:hover{
+    background-color: rgb(64, 179, 64);
+}
+nav .menu{
+    width:40%;
+    display:flex; justify-content: space-around;
+}
+nav .menu a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    font-size: 25px;
+}
+    .menu a:hover{
+    background-color: rgb(68, 206, 68);
+    box-shadow: 2px 0px 2px 4px;
+    }
+nav .menu a:first-child{ 
+    color
+    /* <!--only for the frist anchor tag in menu--haven't used it here but might be used it later> */
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+     
+      
+     
+     
