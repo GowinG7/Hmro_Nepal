@@ -1,2 +1,2 @@
 # Hmro_Nepal
-frontened webpage
+frontend webpage
